@@ -15,7 +15,7 @@ pipeline{
         stages{
 
 
-              stage('build'){
+              stage('builda maven'){
 
                agent {
                 docker {
